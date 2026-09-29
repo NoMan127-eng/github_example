@@ -29,9 +29,9 @@ int main()
     first = 0 ;
     
     while(first < captive){
-        left = target - nums[first];
-        second = first ;
-        for(second = first ; left != nums[second] && second < captive;++second){
+        
+        
+        for(second = first ; target - nums[first] != nums[second] && second < captive;++second){
 
         }
         if (nums[second]==target-nums[first]){
